@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School_Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="sidenav" class="sidenav">
+        <button onclick="closenav()"><i class="fa-solid fa-xmark"> Close</i></button>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#scating">scating</a></li>
+            <li><a href="#shop">shop</a></li>
+            <li><a href="#contact">contact us</a></li>
+        </ul>
+    </nav>
+    <header class="container">
+            <img src="src/logo.png" alt="logo">
+        <nav  class="navbar">
+            <a href="#home" id="red">home</a>
+            <a href="#about">about</a>
+            <a href="#scating">scating</a>
+            <a href="#shop">shop</a>
+            <a href="#contact">contact us</a>
+        </nav>
+        <button id="open" onclick="opennav()"><i class="fa-solid fa-bars"> Menu</i></button>
+    </header>
+    <main>
+        <section class="container1">
+            <div class="top-icon">
+                <img src="src/top_icon.png" alt="topicon">
+                <h1>Skating<br>Board<br>School</h1>
+            </div>
+            <div class="img1">
+                <img src="src/banner_img.png" alt="">
+            </div>
+        </section>
+        <section class="head-content">
+            <div class="head">
+                <h1>Our Skating Class</h1>
+                <p>There are many variations of passages of Lorem</p>
+            </div>
+            <div id="container2" >
+            <div class="text-wrapper1">
+                <img src="src/class1.png" alt="Skating">
+                <h3>Skateboard</h3>
+                <p>There are many variations of <br> passages of Lorem ipsum <br> available , but the majority have <br> suffered alteration There are <br> many variations </p>   
+                <div class="read">
+                    <h5>READ MORE</h5>
+                </div>
+            </div>
+            <div class="text-wrapper1" id="color">
+                <img src="src/class2.png" alt="Skating">
+                <h3>Skateboard</h3>
+                <p>There are many variations of <br> passages of Lorem ipsum <br> available , but the majority have <br> suffered alteration There are <br> many variations </p>
+                <div class="read">
+                    <h5>READ MORE</h5>
+                </div>
+            </div>
+            <div class="text-wrapper1">
+                <img src="src/class3.png" alt="Skating">
+                <h3>Skateboard</h3>
+                <p>There are many variations of <br> passages of Lorem ipsum <br> available , but the majority have <br> suffered alteration There are <br> many variations </p>
+                <div class="read">
+                    <h5>READ MORE</h5>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="container3">
+            <div class="about">
+                <h1>About <br> Skating <br> School</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Error, earum et! Nisi, sed accusamus incidunt velit temporibus placeat earum, <br> perspiciatis quam dignissimos sapiente consequatur ab ad. <br> Illo molestias sed fugit.</p>
+            </div>
+            <div class="img2">
+                <img src="src/about.png" alt="about">
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function opennav(){
+             document.getElementById("sidenav").style.display="block"
+         }
+         function closenav(){
+             document.getElementById("sidenav").style.display="none"
+         }
+     </script>
+</body>
+</html>

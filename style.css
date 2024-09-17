@@ -1,0 +1,166 @@
+body{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.navbar{
+    margin:auto;
+}
+.navbar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin: auto;
+    padding: 1.6rem;
+}
+header img{
+    margin:20px 20px;
+    width: auto;
+}
+.sidenav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black;
+    padding: 20px;
+    display: none;
+}
+.sidenav ul li{
+    padding: 20px;
+    list-style: none;
+}
+.sidenav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.container1{
+    width: 100%;
+    display: flex;
+}
+.top-icon{
+    width: 40%;
+    margin: auto;
+}
+.top-icon img{
+    margin-bottom: 20px;
+}
+.top-icon h1{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.img1{
+    width: 50%;
+}
+#red{
+    padding: 20px 40px;
+    background-color: red;
+    border-radius: 2rem;
+    color: white;
+}
+.head{
+    margin-top: 100px;
+    text-align: center;
+}
+.head h1{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.head p{
+    margin-top: 15px;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.text-wrapper1{
+    background-color: #f0390f;
+    color: white;
+    text-align: center;
+    border-radius: 0.8rem;
+    margin-left: 20px;
+}
+.read h5{
+    margin-right: auto;
+    color: black;
+    font-weight: 900;
+}
+#color{
+    background-color: #3e0bce;
+    color: white;
+    text-align: center;
+}
+.text-wrapper1 p{
+    padding: 20px;
+}
+.text-wrapper1 img{
+    margin: auto;
+    padding: 20px;
+}
+.container3{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(src/about_bg.jpg);
+}
+.about{
+    width: 40%;
+    margin: auto;
+    color: white;
+}
+.about h1{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.about p{
+    margin-top: 20px;
+}
+.img2{
+    width: 50%;
+}
+@media (max-width:767px) {
+    .navbar{
+        display: none;
+    }
+    .container1{
+        margin-top: 50px;
+        display: block;
+    }
+    .top-icon img{
+        width: 100%;
+        margin: auto;
+    }
+    .top-icon h1{
+        margin-top: 20px;
+    }
+    .img1{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #container2{
+        display: block;
+    }
+    .text-wrapper1{
+        margin-bottom: 20px;
+    }
+    .container3{
+        display: block;
+    }
+    .img2{
+        width: 100%;
+    }
+}
+@media (min-width:768px) {
+    #open{
+        display: none;
+    }
+}
