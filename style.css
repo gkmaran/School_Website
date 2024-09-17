@@ -10,6 +10,9 @@ body{
 .navbar{
     margin:auto;
 }
+#open{
+    margin-left: auto;
+}
 .navbar a{
     text-transform: uppercase;
     text-decoration: none;
@@ -81,6 +84,7 @@ header img{
     justify-content: center;
     width: 100%;
     margin-top: 20px;
+    
 }
 .text-wrapper1{
     background-color: #f0390f;
@@ -89,8 +93,8 @@ header img{
     border-radius: 0.8rem;
     margin-left: 20px;
 }
-.read h5{
-    margin-right: auto;
+.text-wrapper1 h5{
+    float: left;
     color: black;
     font-weight: 900;
 }
@@ -125,6 +129,7 @@ header img{
     margin-top: 20px;
 }
 .img2{
+    margin-top: 80px;
     width: 50%;
 }
 @media (max-width:767px) {
@@ -148,9 +153,11 @@ header img{
     }
     #container2{
         display: block;
+        padding: 0px 40px;
     }
     .text-wrapper1{
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 50px auto;
     }
     .container3{
         display: block;
@@ -162,5 +169,8 @@ header img{
 @media (min-width:768px) {
     #open{
         display: none;
+    }
+    .text-wrapper1 h5{
+        position: absolute;
     }
 }
